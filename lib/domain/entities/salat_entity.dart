@@ -5,7 +5,7 @@ class SalatEntity {
   final DateTime startTime;
   final DateTime endTime;
   final bool timeEnded;
-  final bool salatPerformed;
+  final bool performed;
   final SalatPerformType performType;
 
   SalatEntity({
@@ -13,7 +13,7 @@ class SalatEntity {
     required this.startTime,
     required this.endTime,
     required this.timeEnded,
-    required this.salatPerformed,
+    required this.performed,
     required this.performType,
   });
 }
